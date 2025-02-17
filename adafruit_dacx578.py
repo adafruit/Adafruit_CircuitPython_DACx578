@@ -41,7 +41,7 @@ except ImportError:
 __version__ = "0.0.0+auto.0"
 __repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_DAC7578.git"
 
-_DAC7578_DEFAULT_ADDRESS: int = const(0x47)
+_DAC7578_DEFAULT_ADDRESS: int = const(0x4C)
 
 # Command registers (pre-shifted)
 _REG_WRITE: int = const(0x00)
