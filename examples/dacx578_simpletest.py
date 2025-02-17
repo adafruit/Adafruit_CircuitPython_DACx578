@@ -7,7 +7,7 @@ import board
 import adafruit_dacx578
 
 i2c = board.I2C()
-dac = adafruit_dacx578.DACx7578(i2c)
+dac = adafruit_dacx578.DACx578(i2c)
 
 # channels are available with dac.channels[NUM]
 # with NUM being 0-7
