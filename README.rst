@@ -30,7 +30,6 @@ This driver depends on:
 
 * `Adafruit CircuitPython <https://github.com/adafruit/circuitpython>`_
 * `Bus Device <https://github.com/adafruit/Adafruit_CircuitPython_BusDevice>`_
-* `Register <https://github.com/adafruit/Adafruit_CircuitPython_Register>`_
 
 Please ensure all dependencies are available on the CircuitPython filesystem.
 This is easily achieved by downloading
@@ -99,6 +98,8 @@ Usage Example
 
     i2c = board.I2C()
     dac = adafruit_dacx578.DACx7578(i2c)
+
+    dac.channels[0].value = 65535
 
 Documentation
 =============
